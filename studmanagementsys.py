@@ -43,9 +43,6 @@ class Student:
         self.search_txt = StringVar()
 
 
-        title = Label(self.root,text="Visit: CodeWithCurious.com/projects for more projects",bd=3,relief=GROOVE,font=("Brush Script MT",18),bg='blue',fg='white' )
-        title.pack(side=BOTTOM,fill=X)
-
         manage_frame = Label(self.root,bd=4,relief=RIDGE,bg='light blue')
         manage_frame.place(x=15,y=80,width=460,height=580)
 
